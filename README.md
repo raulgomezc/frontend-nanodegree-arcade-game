@@ -1,6 +1,31 @@
-frontend-nanodegree-arcade-game
-===============================
+# Arcade Game: Frogger
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+This is a project for the Front End Web Developer Udacity NanoDegree. The game is based on a player
+charater crossing across an amount of blocks rows to get to the other side of the table, once you
+reach the other side the game restarts in the next level, if and enemy intersects you along the
+way you will be placed in the start point on level one.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## How to run the game
+
+* Clone the repo or download it in a zip
+* Go to the project folder in your terminal
+* Run an HTTP server for example:
+`python -m SimpleHTTPServer`
+* Open your local host at the designated por by your HTTP server, in this case
+  `http://localhost:8000/`
+
+Or
+
+* Clone the repo or download it in a zip
+* Open the index.html file with a broser of your preference
+
+## How to play the game
+
+* Move the player charater with the keys:
+  `→, ←, ↑, ↓`
+* Cross to the other side of the board
+* If an enemy touches you the game will restart on level 1
+
+## License
+
+No license.
